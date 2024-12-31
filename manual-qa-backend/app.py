@@ -11,8 +11,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-# Set your OpenAI API key (store this securely in a `.env` file or environment variable)
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "your-key"
 
 # Filepaths for the manual and FAISS index
 manual_filepath = "manual.pdf"
